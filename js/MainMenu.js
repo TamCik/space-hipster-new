@@ -18,14 +18,14 @@ SpaceHipster.MainMenu.prototype = {
     this.background.autoScroll(-20, 0);
 
     //start game text
-    var text = "Tap to begin";
-    var style = { font: "30px Arial", fill: "#fff", align: "center" };
+    var text = "Tap to begin and play";
+    var style = { font: "50px Arial", fill: "#fff", align: "center" };
     var t = this.game.add.text(this.game.width/2, this.game.height/2, text, style);
     t.anchor.set(0.5);
 
     //highest score
-    text = "Highest score: "+this.highestScore;
-    style = { font: "15px Arial", fill: "#fff", align: "center" };
+    text = "Highest score: " + this.highestScore;
+    style = { font: "25px Arial", fill: "#fff", align: "center" };
   
     var h = this.game.add.text(this.game.width/2, this.game.height/2 + 50, text, style);
     h.anchor.set(0.5);
